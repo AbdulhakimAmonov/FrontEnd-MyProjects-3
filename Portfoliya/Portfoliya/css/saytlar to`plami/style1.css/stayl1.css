@@ -1,0 +1,171 @@
+.navbar-graf{
+    margin-left: 5%;
+}
+
+.navbar-nav{
+    margin-left: 20%;
+    font-size: 25px;
+}
+
+.nav-item{
+    margin-left: 15%;
+    text-align: center;
+}
+
+.telegram{
+    color: rgb(67, 67, 241);
+}
+
+.instagram{
+    color:fuchsia;
+}
+
+.tiktok{
+    color: black
+}
+
+
+.img1{
+    background-image: url(../image/photo_2023-05-18_16-45-59.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius:24% 12% 24% 12%;
+    margin: 10%;
+}
+
+.fa-regular{
+    margin-top: -20%;
+}
+
+
+.text-center{
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 10%;
+    font-weight: 00;
+}
+
+.border-text1{
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.color-bag{
+    padding: 100px 100px 100px 100px;
+    border-radius:15px;
+}
+
+.text-menu{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+.text-simple{
+    text-align: center;
+    padding:1px 10%;
+    font-family: sans-serif;
+}
+
+.text-rar{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.img-fluid{
+    margin-left: 25%;
+    width: 400px;
+    height: 200px;
+    background-size:cover
+}
+
+
+.fw-medium{
+    padding:1% 10%;
+    font-family: sans-serif;
+    text-align:center;
+}
+
+.fw-semibold{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+
+.img-free{
+    width: 400px;
+    margin-left: 10%;
+}
+
+.col-lg-14{
+    background:rgb(190, 188, 188);
+    border-radius: 15px;
+    padding-bottom: 5%;
+}
+
+.fw-bold{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.text-sas{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.text-pro{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+:root{
+    font-size: calc(1vm + 1vh + 1.5vmin);
+}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.containe{
+    margin: 0 auto;
+    height: 700px;
+}
+.body1{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #010e00;
+    background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-box;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    margin-top: 5%;
+}
+h1{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.neon{
+    text-align: center;
+    margin-top: 50%;
+    font-size: 60px;
+    color:#fff ;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+

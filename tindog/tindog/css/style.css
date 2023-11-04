@@ -1,0 +1,174 @@
+body {
+  font-family: "Monsterrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+#footer, #features, #testimonials, #cta{
+  padding: 7% 15%;
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 600;
+
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title .container-fluid {
+  padding: 7% 15%;
+  margin-top: -50px;
+  
+}
+
+/* Navigation Bar  */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.font-link {
+  font-size: 1.2rem;
+}
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+/* Features section */
+#features{
+  margin-bottom: -300px;
+
+  background-color: #fff;
+  position: relative;
+  top: px;
+}
+h3{
+  font-family: "Monsterrat";
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+.testimonal-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 0 5%;
+}
+.carusel-control-next{
+  padding-left: 10%;
+}
+.carusel-control-prev{
+  padding-left: 10%;
+}
+.carousel-inner{
+  margin-top: 300px;
+}
+/* Pricing section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-colm{
+padding: 3% 2%;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+  padding: 10px;
+}
+
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+.cta-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{  
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+.footer-name{
+  color: #343a40;
+}
+.made-name{
+  color: #343a40;
+
+  text-decoration: none;
+  
+}
+.made-name a{
+  color: #ff4c68;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px){
+  #title{
+      text-align: center;
+  }
+  .title-image{
+      position: static;
+      transform: rotate(0);
+      width: 60%;
+  }
+}
